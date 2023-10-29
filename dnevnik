@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Dnevnichok</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body class="body">
+    <!--Header-->
+    <header class="header-main">
+      <div class="header-conteiner">
+        <div class="logo">
+            <img class="logo" src="photo/Logo.svg" alt="Логотип">
+          </div>
+          <button class="createNew">
+            <p class="wright">Написать</p>
+          </button>
+      </div>
+    </header>
+    <section class="main-conteiner">
+        <div class="sort">
+        <h1 class="title">Мой дневничок</h1>
+        <div class="sort-buttons-wrapper">
+            <button class="sort-button newest-button current-sort">
+                <img class="sort-img" src="photo/Sorting Left.png" alt="Сортируем новые">
+                Сначала новые
+            </button>
+            <button class="sort-button oldest-button">
+                <img class="sort-img" src="photo/Sorting Top.png" alt="Сортируем старые">
+                Сначала старые
+            </button>
+          </div>
+        </div>
+        <!--Список записей-->
+        <ul class="note-list">
+            <li class="note current-note">
+                <div class="note-title">Чертовски важная заметка</div>
+                <div class="description">С другой стороны рамки и место обучения кадров позволяет оценить значение дальнейших направлений развития. 
+                    <br>
+                    <br>
+                    Не следует, однако забывать, что сложившаяся структура организации позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач.</div>
+                <div class="data-view">
+                    <div class="data">
+                        <img class="sort-img" src="photo/Calendar 1.png" alt="Дата">
+                        22.10.2023
+                    </div>
+                    <div class="data time">
+                        <img class="sort-img" src="photo/Clock.png" alt="время">
+                        10:00
+                    </div>
+                </div>
+            </li>
+          <li class="note planshet">
+            <div class="note-title">Что-то не такое важное, но тоже интересное</div>
+            <div class="description">Идейные соображения высшего порядка, а также сложившаяся структура организации требуют определения и уточнения модели развития. Значимость этих проблем настолько очевидна, что сложившаяся структура организации представляет собой интересный эксперимент проверки существенных финансовых и административных условий.</div>
+            <div class="data-view">
+                <div class="data">
+                    <img class="sort-img" src="photo/Calendar 1.png" alt="Дата">
+                    22.10.2023
+                </div>
+                <div class="data time">
+                    <img class="sort-img" src="photo/Clock.png" alt="время">
+                    10:00
+                </div>
+            </div>
+          </li>
+          <li class="note last-note">
+            <div class="note-title">Секретный рецепт сырников</div>
+            <div class="description">Таким образом новая модель организационной деятельности позволяет выполнять важные задания по разработке систем массового участия. 
+                <br>
+                <br>
+                Равным образом укрепление и развитие структуры требуют от нас анализа направлений прогрессивного развития.</div>
+            <div class="data-view">
+                <div class="data">
+                    <img class="sort-img" src="photo/Calendar 1.png" alt="Дата">
+                    20.10.2023
+                </div>
+                <div class="data time">
+                    <img class="sort-img" src="photo/Clock.png" alt="время">
+                    17:00
+                </div>
+            </div>
+          </li>
+          <li class="note planshet">
+            <div class="note-title">Мысли насущные после получения ЗП</div>
+            <div class="description">Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке соответствующий условий активизации. 
+                Дальнейшее развитие различных форм деятельности требуют от нас анализа условий активизации.</div>
+            <div class="data-view">
+                <div class="data">
+                    <img class="sort-img" src="photo/Calendar 1.png" alt="Дата">
+                    20.10.2023
+                </div>
+                <div class="data time">
+                    <img class="sort-img" src="photo/Clock.png" alt="время">
+                    10:00
+                </div>
+            </div>
+          </li>
+          <li class="note">
+            <div class="note-title">Секретный план захвата мира</div>
+            <div class="description">Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют от нас анализа дальнейших направлений развития. Значимость этих проблем настолько очевидна, что консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.</div>
+            <div class="data-view">
+                <div class="data">
+                    <img class="sort-img" src="photo/Calendar 1.png" alt="Дата">
+                    17.10.2023
+                </div>
+                <div class="data time">
+                    <img class="sort-img" src="photo/Clock.png" alt="время">
+                    15:00
+                </div>
+            </div>
+          </li>
+          <li class="note last-note planshet">
+            <div class="note-title">Список покупок на следующую неделю</div>
+            <div class="description">Таким образом реализация намеченных плановых заданий в значительной степени обуславливает создание новых предложений. Задача организации, в особенности же рамки и место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития.</div>
+            <div class="data-view">
+                <div class="data">
+                    <img class="sort-img" src="photo/Calendar 1.png" alt="Дата">
+                    16.10.2023
+                </div>
+                <div class="data time">
+                    <img class="sort-img" src="photo/Clock.png" alt="время">
+                    10:10
+                </div>
+            </div>
+          </li>
+          <!--Скрытые записи-->
+          <li class="note hidden">
+            <div class="note-title">Список покупок на следующую неделю</div>
+            <div class="description">Таким образом реализация намеченных плановых заданий в значительной степени обуславливает создание новых предложений. Задача организации, в особенности же рамки и место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития.</div>
+            <div class="data-view">
+                <div class="data">
+                    <img class="sort-img" src="photo/Calendar 1.png" alt="Дата">
+                    16.10.2023
+                </div>
+                <div class="data time">
+                    <img class="sort-img" src="photo/Clock.png" alt="время">
+                    10:10
+                </div>
+            </div>
+          </li>
+          <li class="note planshet hidden">
+            <div class="note-title">Список покупок на следующую неделю</div>
+            <div class="description">Таким образом реализация намеченных плановых заданий в значительной степени обуславливает создание новых предложений. Задача организации, в особенности же рамки и место обучения кадров представляет собой интересный эксперимент проверки дальнейших направлений развития.</div>
+            <div class="data-view">
+                <div class="data">
+                    <img class="sort-img" src="photo/Calendar 1.png" alt="Дата">
+                    16.10.2023
+                </div>
+                <div class="data time">
+                    <img class="sort-img" src="photo/Clock.png" alt="время">
+                    10:10
+                </div>
+            </div>
+          </li>
+        </ul>
+        <!--Кнопка показать больще-->
+        <button class="show-more-button">Показать больше</button>
+        <!--Пагинация-->
+        <div class="pagination">
+            <button class="set-pagination prev-page">
+                <img class="page-arrow" src="photo/Arrow Left 5 Circle.png" alt="назад">
+            </button>
+
+            <div class="page-wrapper">
+                <button class="page current-page">1</button>
+                <button class="page">2</button>
+                <button class="page">3</button>
+                <button class="page">4</button>
+                <button class="page">5</button>
+            </div>
+
+            <button class="set-pagination next-page">
+                <img class="page-arrow" src="photo/Arrow Right 5 Circle.png" alt="Вперед">
+            </button>
+
+            <button class="page-up">
+                <img class="up-arrow" src="photo/Arrow Up 1.png" alt="Наверх">
+                Наверх
+            </button>
+        </div>
+    </section>
+    <!--Popup-->
+    <div class="popup-overlay"></div>
+    <div class="popup">
+        <div class="wrapper">
+            <div class="new-post">Новая запись</div>
+            <button class="close-modal-btn">
+                <img class="close-modal" src="photo/Close.png" alt="закрыть">
+            </button>
+        </div>
+        <div class="inputs-wrapper">
+            <div class="label-fix fix-mob">
+                <div class="under-input">
+                    <label for="title" class="label">Заголовок</label>
+                    <p id="errorMessage" style="display: none; color: red;">Обязательное поле</p>
+                </div>
+                <input class="inputs notice-title" type="text" id="title" name="title" required maxlength="200">
+            </div>
+            <div class="label-fix">
+                <div class="under-input">
+                    <label for="date" class="label">Дата</label>
+                    <p id="errorMessageData" style="display: none; color: red;">Обязательное поле</p>
+                </div>
+                <input class="inputs notice-data" type="date" id="date" name="date" required>
+            </div>
+        </div>
+        <div class="label-fix">
+            <div class="under-input">
+                <label for="description" class="label">Заметка</label>
+                <p id="errorMessageDescr" style="display: none; color: red;">Обязательное поле</p>
+            </div>
+            <input class="inputs big-input notice-text" type="text" id="description" name="description"  required maxlength="2000">
+        </div>
+        <button class="download-notice">Поделиться наболевшим</button>
+    </div>
+    <!--Footer-->
+    <section class="footer">
+        <div class="footer-title">Мой Дневничок</div>
+    </section>
+    <script src="work.js"></script>
+  </body>
+</html>
