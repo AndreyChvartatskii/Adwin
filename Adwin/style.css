@@ -1,0 +1,520 @@
+.body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+.hidden {
+    display: none;
+  }
+.header-conteiner {
+    margin: 0 40px;
+    height: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    height: 110px;
+}
+.createNew {
+    font-weight: 700;
+    font-size: 18px;
+    width: 350px;
+    height: 97px;
+    color: white;
+    background-color: navy;
+    border: 1px;
+    border-radius: 65px;
+    padding: 42px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-conteiner {
+    padding: 80px 40px 130px;
+    border-radius: 30px;
+    background-color: #f6f6f6;
+}
+.sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.title {
+    width: 792px;
+    height: 202px;
+    font-weight: 700;
+    font-size: 112px;
+    line-height: 0.9;
+    margin: 0;
+}
+.sort-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.sort-button {
+    width: 192px;
+    padding: 20px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px;
+}
+.current-sort {
+    background-color: lightblue;
+}
+.sort-img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.note-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+.note {
+    width: 557px;
+    height: 560px;
+    margin-right: 34px;
+    margin-bottom: 80px;
+    list-style-type: none;
+    border-radius: 5%;
+    background-color: white;
+    position: relative;
+}
+.last-note {
+    margin: 0;
+}
+.current-note {
+    color: white;
+    background-color: navy;
+}
+.note-title {
+    margin: 70px 40px 30px 30px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 46px;
+    width: 517px;
+}
+.description {
+    margin: 0 40px 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.data-view {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+    color: lightblue;
+}
+.data {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 70px;
+}
+.time {
+    right: 40px;
+}
+.show-more-button {
+    width: 100%;
+    height: 100px;
+    color: black;
+    background-color: white;
+    border: 1px;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.pagination {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.set-pagination {
+    border: none;
+    background-color: #f6f6f6;
+}
+.page-arrow {
+    width: 34px;
+    height: 34px;
+    margin: 0 126px;
+}
+.page-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 266px;
+    height: 16px;
+}
+.page {
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #f6f6f6;
+}
+.current-page {
+    color: lightblue;
+}
+.footer {
+    height: 70px;
+    background-color: navy;
+}
+.footer-title {
+    padding: 25px 0 25px 40px;
+   color: white; 
+   font-size: 18px;
+}
+.page-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 238px;
+    height: 72px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.up-arrow {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+.popup {
+    display: none;
+    position: relative;
+    position: fixed;
+    width: 1094px;
+    top: 10%;
+    left: 20%;
+    height: 637px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 45px 60px;
+    z-index: 999;
+}
+.new-post {
+    width: 280px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 45px;
+    margin-bottom: 41px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.label {
+    font-size: 18px;
+    width: 90px;
+    height: 20px;
+    margin-bottom: 4px;
+}
+.inputs {
+    width: 486px;
+    height: 40px;
+    background-color: #f6f6f6;
+    border: 1px;
+    border-radius: 4px;
+    padding: 20px;
+}
+.inputs-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.big-input {
+    width: 1054px;
+    height: 148px;
+    margin-bottom: 43px;
+}
+.label-fix {
+    display: flex;
+    flex-direction: column;
+
+}
+.close-modal-btn {
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+.close-modal {
+    width: 38px;
+    height: 38px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-color: white;
+}
+.download-notice {
+    font-weight: 700;
+    font-size: 18px;
+    width: 533px;
+    height: 97px;
+    color: white;
+    background-color: navy;
+    border: 1px;
+    border-radius: 65px;
+    padding: 42px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Затемненный фон с прозрачностью 0.5 */
+    z-index: 99; /* Передний план */
+  }
+  .under-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #errorMessage {
+    margin: 0;
+  }
+  #errorMessageDescr {
+    margin: 0;
+  }
+  #errorMessageData {
+    margin: 0;
+  }
+  
+@media screen and (max-width: 1024px){
+    .main-conteiner {
+        padding: 60px 20px 80px;
+    }
+    .header-conteiner {
+        height: 118px;
+    }
+    .title {
+        width: 527px;
+        height: 130px;
+        font-size: 72px;
+    }
+    .note {
+        width: 480px;
+        height: 530px;
+        margin-right: 22px;
+        margin-bottom: 30px;
+    }
+    .note-title {
+        width: 420px;
+        height: 84px;
+        font-size: 32px;
+        margin: 50px 30px 10px 30px;
+    }
+    .description {
+        width: 420px;
+        height: 279px;
+    }
+    .data {
+        bottom: 60px;
+    }
+    .planshet {
+        margin: 0;
+    }
+    .popup {
+        left: 5%;
+        top: 5%;
+        height: 745px;
+        padding: 0 50px;
+        width: 824px;
+    }
+    .new-post {
+        width: 280px;
+        height: 46px;
+        margin: 46px 0 41px 0;
+    }
+    .close-modal-btn{
+        margin-top: 18px;
+    }
+    .inputs{
+        width: 785px;
+        height: 22px;
+    }
+    .inputs-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .fix-mob {
+        margin-bottom: 20px;
+    }
+    .big-input {
+        height: 143px;
+        margin-bottom: 23px;
+    }
+    .download-notice{
+        width: 533px;
+        height: 97px;
+        padding: 30px 30px;
+        line-height: 16px;
+        font-size: 18px;
+    }
+    #errorMessage {
+        margin-right: 20px;
+      }
+      #errorMessageDescr {
+        margin-right: 35px;
+      }
+      #errorMessageData {
+        margin-right: 20px;
+      }
+}
+  @media (max-width: 1023px) {
+    .header-conteiner {
+        height: 71px;
+        margin: 10px;
+    }
+    .note {
+        width: 355px;
+        height: 520px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .logo {
+        width: 186px;
+        height: 45px;
+    }
+    .createNew {
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        background: navy url("photo/Edit.png") no-repeat center;
+    }
+    .main-conteiner {
+        padding: 29px 8px 50px 10px;
+    }
+    .wright {
+        display: none;
+    }
+    .sort-button{
+        width: 164px;
+        height: 44px;
+        padding: 5px;
+    }
+    .sort-buttons-wrapper {
+        justify-content: space-between;
+    }
+    .title {
+        width: 343px;
+        height: 38px;
+        font-size: 42px;
+        line-height: 38px;
+        margin-bottom: 28px;
+    }
+    .sort {
+        display: block;
+    }
+    .page-arrow {
+        margin: 0 30px;
+    }
+    .note-list{
+        margin-top: 169px;
+    }
+    .note-title {
+        width: 331px;
+        height: 58px;
+        font-size: 26px;
+        line-height: 28px;
+        margin: 34px 14px 20px 10px;
+    }
+    .description {
+        width: 331px;
+        height: 341px;
+        margin-left: 10px;
+    }
+    .data-view{
+        margin-left: 10px;
+    }
+    .data {
+        bottom: 50px;
+    }
+    .time {
+        right: 5%;
+    }
+    .show-more-button{
+        font-size: 22px;
+    }
+    .pagination {
+        margin-top: 33px;
+        margin-bottom: 20px;
+    }
+    .page-up{
+        width: 355px;
+        height: 72px;
+        bottom: 10%;
+        right: 3%;
+    }
+    .popup{
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        padding: 0 10px;
+        border-radius: 0;
+    }
+    .new-post {
+        width: 213px;
+        height: 35px;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 46px 0 32px;
+    }
+    .close-modal-btn{
+        margin-right: 10px;
+    }
+    .inputs{
+        width: 315px;
+        height: 40px;
+    }
+    .inputs-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .fix-mob {
+        margin-bottom: 20px;
+    }
+    .big-input {
+        height: 183px;
+        margin-bottom: 23px;
+    }
+    .download-notice{
+        width: 357px;
+        height: 97px;
+        padding: 30px 30px;
+        font-size: 18px;
+    }
+    #errorMessage {
+        margin-right: 20px;
+      }
+      #errorMessageDescr {
+        margin-right: 35px;
+      }
+      #errorMessageData {
+        margin-right: 20px;
+      }
+  }
